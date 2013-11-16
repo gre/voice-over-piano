@@ -1,0 +1,39 @@
+{
+  "name": "voice-over-piano",
+  "version": "0.0.0",
+  "description": "",
+  "scripts": {
+    "start": "grunt server",
+    "ghpages": "grunt ghpages"
+  },
+  "homepage": "http://github.com/gre/voice-over-piano",
+  "bugs": "http://github.com/gre/voice-over-piano/issues",
+  "author": {
+    "name": "Gaëtan Renaudeau",
+    "email": "renaudeau.gaetan@gmail.com",
+    "url": "https://github.com/gre"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/gre/voice-over-piano.git"
+  },
+  "dependencies": {
+    "audio-notes": "0.1.0",
+    "audiocontext": "0.1.0",
+    "q": "0.9.7",
+    "lodash": "2.2.1"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "matchdep": "~0.1.2",
+    "grunt-contrib-clean": "~0.4.1",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-connect": "~0.3.0",
+    "grunt-contrib-copy": "~0.4.1",
+    "grunt-contrib-watch": "~0.4.4",
+    "grunt-browserify": "~1.2.0",
+    "grunt-gh-pages": "~0.6.0",
+    "grunt-ejs": "~0.1.0",
+    "debowerify": "~0.1.3"
+  }
+}
